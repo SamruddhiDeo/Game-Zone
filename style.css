@@ -85,7 +85,7 @@ main h2{
 
 @media screen and (max-width:750px) {
     .game img {
-        /* width: 250px; */
+        width: 400px;
     }
     .gamesContainer{
         grid-template-columns: 1fr;
@@ -100,16 +100,22 @@ main h2{
 
 @media screen and (max-width:550px) {
     .game img {
-        /* width: 150px; */
+        width: 350px;
     }
     main {
         margin: 27px 17px;
     }
 }
 
+@media screen and (max-width:470px) {
+    .game img {
+        width: 300px;
+    }
+}
+
 @media screen and (max-width:400px) {
     .game img {
-        width: 242px;
+        width: 250px;
     }
     main {
         margin: 27px 10px;
